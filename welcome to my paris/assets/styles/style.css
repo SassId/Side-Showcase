@@ -1,0 +1,31 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.logo {
+    width: 150px;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(54, 156, 240), white) ;
+}
+
+nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
