@@ -53,9 +53,22 @@ h1 {
   border: solid 1px red;
   display: flex;
   flex: 1;
-    article {
-      border: 1px solid blue;
-      width: 100px ;
-      height: 200;
+  gap: 20px;
+  article {
+    border: 1px solid blue;
+    width: 100px;
+    height: 200;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 20px;
+    gap: 10px;
+    figure {
+      ;
     }
+    img {
+      width: 300px;
+      height: 400px;
+    }
+  }
 }
