@@ -43,15 +43,19 @@ h1 {
 
 .main-part {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
   p {
     text-align: center;
   }
 }
 
-.menu {
-  width: 80%;
-  height: 400px;
+.tri-part {
+  border: solid 1px red;
   display: flex;
   flex: 1;
+    article {
+      border: 1px solid blue;
+      width: 100px ;
+      height: 200;
+    }
 }

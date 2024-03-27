@@ -50,3 +50,20 @@ nav {
     text-transform: capitalize;
   }
 }
+
+header a {
+  color: black;
+}
+
+.menu {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex: 1;
+}
+
+@media screen and (orientation: portrait) {
+  .menu {
+    display: none;
+  }
+}
